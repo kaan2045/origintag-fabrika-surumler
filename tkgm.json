@@ -1,0 +1,13 @@
+{
+  "aciklama": "OriginTag Fabrika programinin TKGM parsel sorgu adresleri. TKGM adres degistirirse burasi guncellenir; programlar 6 saat icinde yeni adresi kullanir. Yalniz *.tkgm.gov.tr adresleri kabul edilir.",
+  "adresler": [
+    "https://cbsapi.tkgm.gov.tr/megsiswebapi.v3.1/api",
+    "https://cbsapi.tkgm.gov.tr/megsiswebapi.v3/api"
+  ],
+  "yollar": {
+    "ilListe": "/idariYapi/ilListe",
+    "ilceListe": "/idariYapi/ilceListe/{id}",
+    "mahalleListe": "/idariYapi/mahalleListe/{id}",
+    "parsel": "/parsel/{mahalleId}/{ada}/{parsel}"
+  }
+}
